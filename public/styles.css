@@ -53,9 +53,20 @@ footer {
     font-size: 0.9rem;
 }
 
-/* お問い合わせフォームの中央寄せと整形 */
+/* フォーム全体の中央寄せと整形 */
+#contact-form,
+#login-form {
+    margin: 0 auto;
+}
+
 #contact-form {
     max-width: 600px;
+}
+
+#login-form {
+    max-width: 400px;
+}
+
     margin: 0 auto;
 }
 
@@ -74,3 +85,4 @@ footer {
     padding: 0.5rem;
     box-sizing: border-box;
 }
+
